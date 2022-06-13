@@ -1,0 +1,1290 @@
+2022-06-10 19:02:09 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:02:09 DEBUG allowPoolSuspension.............false
+2022-06-10 19:02:09 DEBUG autoCommit......................true
+2022-06-10 19:02:09 DEBUG catalog.........................none
+2022-06-10 19:02:09 DEBUG connectionInitSql...............none
+2022-06-10 19:02:09 DEBUG connectionTestQuery.............none
+2022-06-10 19:02:09 DEBUG connectionTimeout...............30000
+2022-06-10 19:02:09 DEBUG dataSource......................none
+2022-06-10 19:02:09 DEBUG dataSourceClassName.............none
+2022-06-10 19:02:09 DEBUG dataSourceJNDI..................none
+2022-06-10 19:02:09 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:02:09 DEBUG driverClassName.................none
+2022-06-10 19:02:09 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:02:09 DEBUG healthCheckProperties...........{}
+2022-06-10 19:02:09 DEBUG healthCheckRegistry.............none
+2022-06-10 19:02:09 DEBUG idleTimeout.....................600000
+2022-06-10 19:02:09 DEBUG initializationFailTimeout.......1
+2022-06-10 19:02:09 DEBUG isolateInternalQueries..........false
+2022-06-10 19:02:09 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:02:09 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:02:09 DEBUG maxLifetime.....................1800000
+2022-06-10 19:02:09 DEBUG maximumPoolSize.................10
+2022-06-10 19:02:09 DEBUG metricRegistry..................none
+2022-06-10 19:02:09 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:02:09 DEBUG minimumIdle.....................10
+2022-06-10 19:02:09 DEBUG password........................<masked>
+2022-06-10 19:02:09 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:02:09 DEBUG readOnly........................false
+2022-06-10 19:02:09 DEBUG registerMbeans..................false
+2022-06-10 19:02:09 DEBUG scheduledExecutor...............none
+2022-06-10 19:02:09 DEBUG schema..........................none
+2022-06-10 19:02:09 DEBUG threadFactory...................internal
+2022-06-10 19:02:09 DEBUG transactionIsolation............default
+2022-06-10 19:02:09 DEBUG username........................"root"
+2022-06-10 19:02:09 DEBUG validationTimeout...............5000
+2022-06-10 19:02:09 INFO  HikariPool-1 - Starting...
+2022-06-10 19:02:09 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:02:10 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54dcfa5a
+2022-06-10 19:02:10 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:02:10 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:03:43 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:03:43 DEBUG allowPoolSuspension.............false
+2022-06-10 19:03:43 DEBUG autoCommit......................true
+2022-06-10 19:03:43 DEBUG catalog.........................none
+2022-06-10 19:03:43 DEBUG connectionInitSql...............none
+2022-06-10 19:03:43 DEBUG connectionTestQuery.............none
+2022-06-10 19:03:43 DEBUG connectionTimeout...............30000
+2022-06-10 19:03:43 DEBUG dataSource......................none
+2022-06-10 19:03:43 DEBUG dataSourceClassName.............none
+2022-06-10 19:03:43 DEBUG dataSourceJNDI..................none
+2022-06-10 19:03:43 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:03:43 DEBUG driverClassName.................none
+2022-06-10 19:03:43 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:03:43 DEBUG healthCheckProperties...........{}
+2022-06-10 19:03:43 DEBUG healthCheckRegistry.............none
+2022-06-10 19:03:43 DEBUG idleTimeout.....................600000
+2022-06-10 19:03:43 DEBUG initializationFailTimeout.......1
+2022-06-10 19:03:43 DEBUG isolateInternalQueries..........false
+2022-06-10 19:03:43 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:03:43 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:03:43 DEBUG maxLifetime.....................1800000
+2022-06-10 19:03:43 DEBUG maximumPoolSize.................10
+2022-06-10 19:03:43 DEBUG metricRegistry..................none
+2022-06-10 19:03:43 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:03:43 DEBUG minimumIdle.....................10
+2022-06-10 19:03:43 DEBUG password........................<masked>
+2022-06-10 19:03:43 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:03:43 DEBUG readOnly........................false
+2022-06-10 19:03:43 DEBUG registerMbeans..................false
+2022-06-10 19:03:43 DEBUG scheduledExecutor...............none
+2022-06-10 19:03:43 DEBUG schema..........................none
+2022-06-10 19:03:43 DEBUG threadFactory...................internal
+2022-06-10 19:03:43 DEBUG transactionIsolation............default
+2022-06-10 19:03:43 DEBUG username........................"root"
+2022-06-10 19:03:43 DEBUG validationTimeout...............5000
+2022-06-10 19:03:43 INFO  HikariPool-1 - Starting...
+2022-06-10 19:03:43 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:03:43 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e7b159b
+2022-06-10 19:03:43 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:03:43 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:05:12 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:05:12 DEBUG allowPoolSuspension.............false
+2022-06-10 19:05:12 DEBUG autoCommit......................true
+2022-06-10 19:05:12 DEBUG catalog.........................none
+2022-06-10 19:05:12 DEBUG connectionInitSql...............none
+2022-06-10 19:05:12 DEBUG connectionTestQuery.............none
+2022-06-10 19:05:12 DEBUG connectionTimeout...............30000
+2022-06-10 19:05:12 DEBUG dataSource......................none
+2022-06-10 19:05:12 DEBUG dataSourceClassName.............none
+2022-06-10 19:05:12 DEBUG dataSourceJNDI..................none
+2022-06-10 19:05:12 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:05:12 DEBUG driverClassName.................none
+2022-06-10 19:05:12 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:05:12 DEBUG healthCheckProperties...........{}
+2022-06-10 19:05:12 DEBUG healthCheckRegistry.............none
+2022-06-10 19:05:12 DEBUG idleTimeout.....................600000
+2022-06-10 19:05:12 DEBUG initializationFailTimeout.......1
+2022-06-10 19:05:12 DEBUG isolateInternalQueries..........false
+2022-06-10 19:05:12 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:05:12 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:05:12 DEBUG maxLifetime.....................1800000
+2022-06-10 19:05:12 DEBUG maximumPoolSize.................10
+2022-06-10 19:05:12 DEBUG metricRegistry..................none
+2022-06-10 19:05:12 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:05:12 DEBUG minimumIdle.....................10
+2022-06-10 19:05:12 DEBUG password........................<masked>
+2022-06-10 19:05:12 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:05:12 DEBUG readOnly........................false
+2022-06-10 19:05:12 DEBUG registerMbeans..................false
+2022-06-10 19:05:12 DEBUG scheduledExecutor...............none
+2022-06-10 19:05:12 DEBUG schema..........................none
+2022-06-10 19:05:12 DEBUG threadFactory...................internal
+2022-06-10 19:05:12 DEBUG transactionIsolation............default
+2022-06-10 19:05:12 DEBUG username........................"root"
+2022-06-10 19:05:12 DEBUG validationTimeout...............5000
+2022-06-10 19:05:12 INFO  HikariPool-1 - Starting...
+2022-06-10 19:05:12 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:05:13 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@293a5f75
+2022-06-10 19:05:13 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:05:13 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:07:22 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:07:22 DEBUG allowPoolSuspension.............false
+2022-06-10 19:07:22 DEBUG autoCommit......................true
+2022-06-10 19:07:22 DEBUG catalog.........................none
+2022-06-10 19:07:22 DEBUG connectionInitSql...............none
+2022-06-10 19:07:22 DEBUG connectionTestQuery.............none
+2022-06-10 19:07:22 DEBUG connectionTimeout...............30000
+2022-06-10 19:07:22 DEBUG dataSource......................none
+2022-06-10 19:07:22 DEBUG dataSourceClassName.............none
+2022-06-10 19:07:22 DEBUG dataSourceJNDI..................none
+2022-06-10 19:07:22 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:07:22 DEBUG driverClassName.................none
+2022-06-10 19:07:22 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:07:22 DEBUG healthCheckProperties...........{}
+2022-06-10 19:07:22 DEBUG healthCheckRegistry.............none
+2022-06-10 19:07:22 DEBUG idleTimeout.....................600000
+2022-06-10 19:07:22 DEBUG initializationFailTimeout.......1
+2022-06-10 19:07:22 DEBUG isolateInternalQueries..........false
+2022-06-10 19:07:22 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:07:22 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:07:22 DEBUG maxLifetime.....................1800000
+2022-06-10 19:07:22 DEBUG maximumPoolSize.................10
+2022-06-10 19:07:22 DEBUG metricRegistry..................none
+2022-06-10 19:07:22 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:07:22 DEBUG minimumIdle.....................10
+2022-06-10 19:07:22 DEBUG password........................<masked>
+2022-06-10 19:07:22 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:07:22 DEBUG readOnly........................false
+2022-06-10 19:07:22 DEBUG registerMbeans..................false
+2022-06-10 19:07:22 DEBUG scheduledExecutor...............none
+2022-06-10 19:07:22 DEBUG schema..........................none
+2022-06-10 19:07:22 DEBUG threadFactory...................internal
+2022-06-10 19:07:22 DEBUG transactionIsolation............default
+2022-06-10 19:07:22 DEBUG username........................"root"
+2022-06-10 19:07:22 DEBUG validationTimeout...............5000
+2022-06-10 19:07:22 INFO  HikariPool-1 - Starting...
+2022-06-10 19:07:22 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:07:22 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60957c0f
+2022-06-10 19:07:22 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:07:23 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:08:19 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:08:19 DEBUG allowPoolSuspension.............false
+2022-06-10 19:08:19 DEBUG autoCommit......................true
+2022-06-10 19:08:19 DEBUG catalog.........................none
+2022-06-10 19:08:19 DEBUG connectionInitSql...............none
+2022-06-10 19:08:19 DEBUG connectionTestQuery.............none
+2022-06-10 19:08:19 DEBUG connectionTimeout...............30000
+2022-06-10 19:08:19 DEBUG dataSource......................none
+2022-06-10 19:08:19 DEBUG dataSourceClassName.............none
+2022-06-10 19:08:19 DEBUG dataSourceJNDI..................none
+2022-06-10 19:08:19 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:08:19 DEBUG driverClassName.................none
+2022-06-10 19:08:19 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:08:19 DEBUG healthCheckProperties...........{}
+2022-06-10 19:08:19 DEBUG healthCheckRegistry.............none
+2022-06-10 19:08:19 DEBUG idleTimeout.....................600000
+2022-06-10 19:08:19 DEBUG initializationFailTimeout.......1
+2022-06-10 19:08:19 DEBUG isolateInternalQueries..........false
+2022-06-10 19:08:19 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:08:19 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:08:19 DEBUG maxLifetime.....................1800000
+2022-06-10 19:08:19 DEBUG maximumPoolSize.................10
+2022-06-10 19:08:19 DEBUG metricRegistry..................none
+2022-06-10 19:08:19 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:08:19 DEBUG minimumIdle.....................10
+2022-06-10 19:08:19 DEBUG password........................<masked>
+2022-06-10 19:08:19 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:08:19 DEBUG readOnly........................false
+2022-06-10 19:08:19 DEBUG registerMbeans..................false
+2022-06-10 19:08:19 DEBUG scheduledExecutor...............none
+2022-06-10 19:08:19 DEBUG schema..........................none
+2022-06-10 19:08:19 DEBUG threadFactory...................internal
+2022-06-10 19:08:19 DEBUG transactionIsolation............default
+2022-06-10 19:08:19 DEBUG username........................"root"
+2022-06-10 19:08:19 DEBUG validationTimeout...............5000
+2022-06-10 19:08:19 INFO  HikariPool-1 - Starting...
+2022-06-10 19:08:19 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:08:20 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2a47d
+2022-06-10 19:08:20 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:08:20 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:09:12 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:09:12 DEBUG allowPoolSuspension.............false
+2022-06-10 19:09:12 DEBUG autoCommit......................true
+2022-06-10 19:09:12 DEBUG catalog.........................none
+2022-06-10 19:09:12 DEBUG connectionInitSql...............none
+2022-06-10 19:09:12 DEBUG connectionTestQuery.............none
+2022-06-10 19:09:12 DEBUG connectionTimeout...............30000
+2022-06-10 19:09:12 DEBUG dataSource......................none
+2022-06-10 19:09:12 DEBUG dataSourceClassName.............none
+2022-06-10 19:09:12 DEBUG dataSourceJNDI..................none
+2022-06-10 19:09:12 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:09:12 DEBUG driverClassName.................none
+2022-06-10 19:09:12 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:09:12 DEBUG healthCheckProperties...........{}
+2022-06-10 19:09:12 DEBUG healthCheckRegistry.............none
+2022-06-10 19:09:12 DEBUG idleTimeout.....................600000
+2022-06-10 19:09:12 DEBUG initializationFailTimeout.......1
+2022-06-10 19:09:12 DEBUG isolateInternalQueries..........false
+2022-06-10 19:09:12 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:09:12 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:09:12 DEBUG maxLifetime.....................1800000
+2022-06-10 19:09:12 DEBUG maximumPoolSize.................10
+2022-06-10 19:09:12 DEBUG metricRegistry..................none
+2022-06-10 19:09:12 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:09:12 DEBUG minimumIdle.....................10
+2022-06-10 19:09:12 DEBUG password........................<masked>
+2022-06-10 19:09:12 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:09:12 DEBUG readOnly........................false
+2022-06-10 19:09:12 DEBUG registerMbeans..................false
+2022-06-10 19:09:12 DEBUG scheduledExecutor...............none
+2022-06-10 19:09:12 DEBUG schema..........................none
+2022-06-10 19:09:12 DEBUG threadFactory...................internal
+2022-06-10 19:09:12 DEBUG transactionIsolation............default
+2022-06-10 19:09:12 DEBUG username........................"root"
+2022-06-10 19:09:12 DEBUG validationTimeout...............5000
+2022-06-10 19:09:12 INFO  HikariPool-1 - Starting...
+2022-06-10 19:09:12 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:09:13 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2a47d
+2022-06-10 19:09:13 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:09:13 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:09:42 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:09:42 DEBUG allowPoolSuspension.............false
+2022-06-10 19:09:42 DEBUG autoCommit......................true
+2022-06-10 19:09:42 DEBUG catalog.........................none
+2022-06-10 19:09:42 DEBUG connectionInitSql...............none
+2022-06-10 19:09:42 DEBUG connectionTestQuery.............none
+2022-06-10 19:09:42 DEBUG connectionTimeout...............30000
+2022-06-10 19:09:42 DEBUG dataSource......................none
+2022-06-10 19:09:42 DEBUG dataSourceClassName.............none
+2022-06-10 19:09:42 DEBUG dataSourceJNDI..................none
+2022-06-10 19:09:42 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:09:42 DEBUG driverClassName.................none
+2022-06-10 19:09:42 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:09:42 DEBUG healthCheckProperties...........{}
+2022-06-10 19:09:42 DEBUG healthCheckRegistry.............none
+2022-06-10 19:09:42 DEBUG idleTimeout.....................600000
+2022-06-10 19:09:42 DEBUG initializationFailTimeout.......1
+2022-06-10 19:09:42 DEBUG isolateInternalQueries..........false
+2022-06-10 19:09:42 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:09:42 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:09:42 DEBUG maxLifetime.....................1800000
+2022-06-10 19:09:42 DEBUG maximumPoolSize.................10
+2022-06-10 19:09:42 DEBUG metricRegistry..................none
+2022-06-10 19:09:42 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:09:42 DEBUG minimumIdle.....................10
+2022-06-10 19:09:42 DEBUG password........................<masked>
+2022-06-10 19:09:42 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:09:42 DEBUG readOnly........................false
+2022-06-10 19:09:42 DEBUG registerMbeans..................false
+2022-06-10 19:09:42 DEBUG scheduledExecutor...............none
+2022-06-10 19:09:42 DEBUG schema..........................none
+2022-06-10 19:09:42 DEBUG threadFactory...................internal
+2022-06-10 19:09:42 DEBUG transactionIsolation............default
+2022-06-10 19:09:42 DEBUG username........................"root"
+2022-06-10 19:09:42 DEBUG validationTimeout...............5000
+2022-06-10 19:09:42 INFO  HikariPool-1 - Starting...
+2022-06-10 19:09:42 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:09:43 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2a47d
+2022-06-10 19:09:43 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:09:43 ERROR java.sql.SQLException: No value specified for parameter 1
+2022-06-10 19:17:11 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:17:11 DEBUG allowPoolSuspension.............false
+2022-06-10 19:17:11 DEBUG autoCommit......................true
+2022-06-10 19:17:11 DEBUG catalog.........................none
+2022-06-10 19:17:11 DEBUG connectionInitSql...............none
+2022-06-10 19:17:11 DEBUG connectionTestQuery.............none
+2022-06-10 19:17:11 DEBUG connectionTimeout...............30000
+2022-06-10 19:17:11 DEBUG dataSource......................none
+2022-06-10 19:17:11 DEBUG dataSourceClassName.............none
+2022-06-10 19:17:11 DEBUG dataSourceJNDI..................none
+2022-06-10 19:17:11 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:17:11 DEBUG driverClassName.................none
+2022-06-10 19:17:11 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:17:11 DEBUG healthCheckProperties...........{}
+2022-06-10 19:17:11 DEBUG healthCheckRegistry.............none
+2022-06-10 19:17:11 DEBUG idleTimeout.....................600000
+2022-06-10 19:17:11 DEBUG initializationFailTimeout.......1
+2022-06-10 19:17:11 DEBUG isolateInternalQueries..........false
+2022-06-10 19:17:11 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:17:11 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:17:11 DEBUG maxLifetime.....................1800000
+2022-06-10 19:17:11 DEBUG maximumPoolSize.................10
+2022-06-10 19:17:11 DEBUG metricRegistry..................none
+2022-06-10 19:17:11 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:17:11 DEBUG minimumIdle.....................10
+2022-06-10 19:17:11 DEBUG password........................<masked>
+2022-06-10 19:17:11 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:17:11 DEBUG readOnly........................false
+2022-06-10 19:17:11 DEBUG registerMbeans..................false
+2022-06-10 19:17:11 DEBUG scheduledExecutor...............none
+2022-06-10 19:17:11 DEBUG schema..........................none
+2022-06-10 19:17:11 DEBUG threadFactory...................internal
+2022-06-10 19:17:11 DEBUG transactionIsolation............default
+2022-06-10 19:17:11 DEBUG username........................"root"
+2022-06-10 19:17:11 DEBUG validationTimeout...............5000
+2022-06-10 19:17:11 INFO  HikariPool-1 - Starting...
+2022-06-10 19:17:11 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:17:12 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2a47d
+2022-06-10 19:17:12 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:32:31 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:32:31 DEBUG allowPoolSuspension.............false
+2022-06-10 19:32:31 DEBUG autoCommit......................true
+2022-06-10 19:32:31 DEBUG catalog.........................none
+2022-06-10 19:32:31 DEBUG connectionInitSql...............none
+2022-06-10 19:32:31 DEBUG connectionTestQuery.............none
+2022-06-10 19:32:31 DEBUG connectionTimeout...............30000
+2022-06-10 19:32:31 DEBUG dataSource......................none
+2022-06-10 19:32:31 DEBUG dataSourceClassName.............none
+2022-06-10 19:32:31 DEBUG dataSourceJNDI..................none
+2022-06-10 19:32:31 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:32:31 DEBUG driverClassName.................none
+2022-06-10 19:32:31 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:32:31 DEBUG healthCheckProperties...........{}
+2022-06-10 19:32:31 DEBUG healthCheckRegistry.............none
+2022-06-10 19:32:31 DEBUG idleTimeout.....................600000
+2022-06-10 19:32:31 DEBUG initializationFailTimeout.......1
+2022-06-10 19:32:31 DEBUG isolateInternalQueries..........false
+2022-06-10 19:32:31 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:32:31 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:32:31 DEBUG maxLifetime.....................1800000
+2022-06-10 19:32:31 DEBUG maximumPoolSize.................10
+2022-06-10 19:32:31 DEBUG metricRegistry..................none
+2022-06-10 19:32:31 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:32:31 DEBUG minimumIdle.....................10
+2022-06-10 19:32:31 DEBUG password........................<masked>
+2022-06-10 19:32:31 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:32:31 DEBUG readOnly........................false
+2022-06-10 19:32:31 DEBUG registerMbeans..................false
+2022-06-10 19:32:31 DEBUG scheduledExecutor...............none
+2022-06-10 19:32:31 DEBUG schema..........................none
+2022-06-10 19:32:31 DEBUG threadFactory...................internal
+2022-06-10 19:32:31 DEBUG transactionIsolation............default
+2022-06-10 19:32:31 DEBUG username........................"root"
+2022-06-10 19:32:31 DEBUG validationTimeout...............5000
+2022-06-10 19:32:31 INFO  HikariPool-1 - Starting...
+2022-06-10 19:32:31 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:32:31 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60957c0f
+2022-06-10 19:32:31 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:32:31 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:32:31 ERROR java.sql.SQLSyntaxErrorException: Table 'evidence_db.evidence' doesn't exist
+2022-06-10 19:36:15 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:36:15 DEBUG allowPoolSuspension.............false
+2022-06-10 19:36:15 DEBUG autoCommit......................true
+2022-06-10 19:36:15 DEBUG catalog.........................none
+2022-06-10 19:36:15 DEBUG connectionInitSql...............none
+2022-06-10 19:36:15 DEBUG connectionTestQuery.............none
+2022-06-10 19:36:15 DEBUG connectionTimeout...............30000
+2022-06-10 19:36:15 DEBUG dataSource......................none
+2022-06-10 19:36:15 DEBUG dataSourceClassName.............none
+2022-06-10 19:36:15 DEBUG dataSourceJNDI..................none
+2022-06-10 19:36:15 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:36:15 DEBUG driverClassName.................none
+2022-06-10 19:36:15 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:36:15 DEBUG healthCheckProperties...........{}
+2022-06-10 19:36:15 DEBUG healthCheckRegistry.............none
+2022-06-10 19:36:15 DEBUG idleTimeout.....................600000
+2022-06-10 19:36:15 DEBUG initializationFailTimeout.......1
+2022-06-10 19:36:15 DEBUG isolateInternalQueries..........false
+2022-06-10 19:36:15 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:36:15 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:36:15 DEBUG maxLifetime.....................1800000
+2022-06-10 19:36:15 DEBUG maximumPoolSize.................10
+2022-06-10 19:36:15 DEBUG metricRegistry..................none
+2022-06-10 19:36:15 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:36:15 DEBUG minimumIdle.....................10
+2022-06-10 19:36:15 DEBUG password........................<masked>
+2022-06-10 19:36:15 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:36:15 DEBUG readOnly........................false
+2022-06-10 19:36:15 DEBUG registerMbeans..................false
+2022-06-10 19:36:15 DEBUG scheduledExecutor...............none
+2022-06-10 19:36:15 DEBUG schema..........................none
+2022-06-10 19:36:15 DEBUG threadFactory...................internal
+2022-06-10 19:36:15 DEBUG transactionIsolation............default
+2022-06-10 19:36:15 DEBUG username........................"root"
+2022-06-10 19:36:15 DEBUG validationTimeout...............5000
+2022-06-10 19:36:15 INFO  HikariPool-1 - Starting...
+2022-06-10 19:36:15 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:36:16 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@293a5f75
+2022-06-10 19:36:16 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:36:16 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:36:16 ERROR java.sql.SQLSyntaxErrorException: Table 'evidence_db.evidence' doesn't exist
+2022-06-10 19:36:52 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:36:52 DEBUG allowPoolSuspension.............false
+2022-06-10 19:36:52 DEBUG autoCommit......................true
+2022-06-10 19:36:52 DEBUG catalog.........................none
+2022-06-10 19:36:52 DEBUG connectionInitSql...............none
+2022-06-10 19:36:52 DEBUG connectionTestQuery.............none
+2022-06-10 19:36:52 DEBUG connectionTimeout...............30000
+2022-06-10 19:36:52 DEBUG dataSource......................none
+2022-06-10 19:36:52 DEBUG dataSourceClassName.............none
+2022-06-10 19:36:52 DEBUG dataSourceJNDI..................none
+2022-06-10 19:36:52 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:36:52 DEBUG driverClassName.................none
+2022-06-10 19:36:52 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:36:52 DEBUG healthCheckProperties...........{}
+2022-06-10 19:36:52 DEBUG healthCheckRegistry.............none
+2022-06-10 19:36:52 DEBUG idleTimeout.....................600000
+2022-06-10 19:36:52 DEBUG initializationFailTimeout.......1
+2022-06-10 19:36:52 DEBUG isolateInternalQueries..........false
+2022-06-10 19:36:52 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:36:52 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:36:52 DEBUG maxLifetime.....................1800000
+2022-06-10 19:36:52 DEBUG maximumPoolSize.................10
+2022-06-10 19:36:52 DEBUG metricRegistry..................none
+2022-06-10 19:36:52 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:36:52 DEBUG minimumIdle.....................10
+2022-06-10 19:36:52 DEBUG password........................<masked>
+2022-06-10 19:36:52 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:36:52 DEBUG readOnly........................false
+2022-06-10 19:36:52 DEBUG registerMbeans..................false
+2022-06-10 19:36:52 DEBUG scheduledExecutor...............none
+2022-06-10 19:36:52 DEBUG schema..........................none
+2022-06-10 19:36:52 DEBUG threadFactory...................internal
+2022-06-10 19:36:52 DEBUG transactionIsolation............default
+2022-06-10 19:36:52 DEBUG username........................"root"
+2022-06-10 19:36:52 DEBUG validationTimeout...............5000
+2022-06-10 19:36:52 INFO  HikariPool-1 - Starting...
+2022-06-10 19:36:52 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:36:53 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@293a5f75
+2022-06-10 19:36:53 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:36:53 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:36:53 ERROR java.sql.SQLException: Before start of result set
+2022-06-10 19:36:53 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-10 19:39:00 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:39:00 DEBUG allowPoolSuspension.............false
+2022-06-10 19:39:00 DEBUG autoCommit......................true
+2022-06-10 19:39:00 DEBUG catalog.........................none
+2022-06-10 19:39:00 DEBUG connectionInitSql...............none
+2022-06-10 19:39:00 DEBUG connectionTestQuery.............none
+2022-06-10 19:39:00 DEBUG connectionTimeout...............30000
+2022-06-10 19:39:00 DEBUG dataSource......................none
+2022-06-10 19:39:00 DEBUG dataSourceClassName.............none
+2022-06-10 19:39:00 DEBUG dataSourceJNDI..................none
+2022-06-10 19:39:00 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:39:00 DEBUG driverClassName.................none
+2022-06-10 19:39:00 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:39:00 DEBUG healthCheckProperties...........{}
+2022-06-10 19:39:00 DEBUG healthCheckRegistry.............none
+2022-06-10 19:39:00 DEBUG idleTimeout.....................600000
+2022-06-10 19:39:00 DEBUG initializationFailTimeout.......1
+2022-06-10 19:39:00 DEBUG isolateInternalQueries..........false
+2022-06-10 19:39:00 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:39:00 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:39:00 DEBUG maxLifetime.....................1800000
+2022-06-10 19:39:00 DEBUG maximumPoolSize.................10
+2022-06-10 19:39:00 DEBUG metricRegistry..................none
+2022-06-10 19:39:00 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:39:00 DEBUG minimumIdle.....................10
+2022-06-10 19:39:00 DEBUG password........................<masked>
+2022-06-10 19:39:00 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:39:00 DEBUG readOnly........................false
+2022-06-10 19:39:00 DEBUG registerMbeans..................false
+2022-06-10 19:39:00 DEBUG scheduledExecutor...............none
+2022-06-10 19:39:00 DEBUG schema..........................none
+2022-06-10 19:39:00 DEBUG threadFactory...................internal
+2022-06-10 19:39:00 DEBUG transactionIsolation............default
+2022-06-10 19:39:00 DEBUG username........................"root"
+2022-06-10 19:39:00 DEBUG validationTimeout...............5000
+2022-06-10 19:39:01 INFO  HikariPool-1 - Starting...
+2022-06-10 19:39:01 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:39:01 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60957c0f
+2022-06-10 19:39:01 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:39:01 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:58:15 DEBUG HikariPool-1 - configuration:
+2022-06-10 19:58:15 DEBUG allowPoolSuspension.............false
+2022-06-10 19:58:15 DEBUG autoCommit......................true
+2022-06-10 19:58:15 DEBUG catalog.........................none
+2022-06-10 19:58:15 DEBUG connectionInitSql...............none
+2022-06-10 19:58:15 DEBUG connectionTestQuery.............none
+2022-06-10 19:58:15 DEBUG connectionTimeout...............30000
+2022-06-10 19:58:15 DEBUG dataSource......................none
+2022-06-10 19:58:15 DEBUG dataSourceClassName.............none
+2022-06-10 19:58:15 DEBUG dataSourceJNDI..................none
+2022-06-10 19:58:15 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 19:58:15 DEBUG driverClassName.................none
+2022-06-10 19:58:15 DEBUG exceptionOverrideClassName......none
+2022-06-10 19:58:15 DEBUG healthCheckProperties...........{}
+2022-06-10 19:58:15 DEBUG healthCheckRegistry.............none
+2022-06-10 19:58:15 DEBUG idleTimeout.....................600000
+2022-06-10 19:58:15 DEBUG initializationFailTimeout.......1
+2022-06-10 19:58:15 DEBUG isolateInternalQueries..........false
+2022-06-10 19:58:15 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:58:15 DEBUG leakDetectionThreshold..........0
+2022-06-10 19:58:15 DEBUG maxLifetime.....................1800000
+2022-06-10 19:58:15 DEBUG maximumPoolSize.................10
+2022-06-10 19:58:15 DEBUG metricRegistry..................none
+2022-06-10 19:58:15 DEBUG metricsTrackerFactory...........none
+2022-06-10 19:58:15 DEBUG minimumIdle.....................10
+2022-06-10 19:58:15 DEBUG password........................<masked>
+2022-06-10 19:58:15 DEBUG poolName........................"HikariPool-1"
+2022-06-10 19:58:15 DEBUG readOnly........................false
+2022-06-10 19:58:15 DEBUG registerMbeans..................false
+2022-06-10 19:58:15 DEBUG scheduledExecutor...............none
+2022-06-10 19:58:15 DEBUG schema..........................none
+2022-06-10 19:58:15 DEBUG threadFactory...................internal
+2022-06-10 19:58:15 DEBUG transactionIsolation............default
+2022-06-10 19:58:15 DEBUG username........................"root"
+2022-06-10 19:58:15 DEBUG validationTimeout...............5000
+2022-06-10 19:58:15 INFO  HikariPool-1 - Starting...
+2022-06-10 19:58:15 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 19:58:16 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37052337
+2022-06-10 19:58:16 INFO  HikariPool-1 - Start completed.
+2022-06-10 19:58:16 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:58:16 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 19:58:16 DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-06-10 19:58:16 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7df52d95
+2022-06-10 21:16:48 DEBUG HikariPool-1 - configuration:
+2022-06-10 21:16:48 DEBUG allowPoolSuspension.............false
+2022-06-10 21:16:48 DEBUG autoCommit......................true
+2022-06-10 21:16:48 DEBUG catalog.........................none
+2022-06-10 21:16:48 DEBUG connectionInitSql...............none
+2022-06-10 21:16:48 DEBUG connectionTestQuery.............none
+2022-06-10 21:16:48 DEBUG connectionTimeout...............30000
+2022-06-10 21:16:48 DEBUG dataSource......................none
+2022-06-10 21:16:48 DEBUG dataSourceClassName.............none
+2022-06-10 21:16:48 DEBUG dataSourceJNDI..................none
+2022-06-10 21:16:48 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 21:16:48 DEBUG driverClassName.................none
+2022-06-10 21:16:48 DEBUG exceptionOverrideClassName......none
+2022-06-10 21:16:48 DEBUG healthCheckProperties...........{}
+2022-06-10 21:16:48 DEBUG healthCheckRegistry.............none
+2022-06-10 21:16:48 DEBUG idleTimeout.....................600000
+2022-06-10 21:16:48 DEBUG initializationFailTimeout.......1
+2022-06-10 21:16:48 DEBUG isolateInternalQueries..........false
+2022-06-10 21:16:48 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 21:16:48 DEBUG leakDetectionThreshold..........0
+2022-06-10 21:16:48 DEBUG maxLifetime.....................1800000
+2022-06-10 21:16:48 DEBUG maximumPoolSize.................10
+2022-06-10 21:16:48 DEBUG metricRegistry..................none
+2022-06-10 21:16:48 DEBUG metricsTrackerFactory...........none
+2022-06-10 21:16:48 DEBUG minimumIdle.....................10
+2022-06-10 21:16:48 DEBUG password........................<masked>
+2022-06-10 21:16:48 DEBUG poolName........................"HikariPool-1"
+2022-06-10 21:16:48 DEBUG readOnly........................false
+2022-06-10 21:16:48 DEBUG registerMbeans..................false
+2022-06-10 21:16:48 DEBUG scheduledExecutor...............none
+2022-06-10 21:16:48 DEBUG schema..........................none
+2022-06-10 21:16:48 DEBUG threadFactory...................internal
+2022-06-10 21:16:48 DEBUG transactionIsolation............default
+2022-06-10 21:16:48 DEBUG username........................"root"
+2022-06-10 21:16:48 DEBUG validationTimeout...............5000
+2022-06-10 21:16:48 INFO  HikariPool-1 - Starting...
+2022-06-10 21:16:48 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 21:16:49 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56e8b606
+2022-06-10 21:16:49 INFO  HikariPool-1 - Start completed.
+2022-06-10 21:16:49 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 21:16:49 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-10 21:16:49 ERROR java.sql.SQLException: Column 'id_leadInvest' not found.
+2022-06-10 21:16:49 ERROR java.lang.NullPointerException: Cannot invoke "core.CriminalCase.toString()" because "criminalCase" is null
+2022-06-10 21:28:12 DEBUG HikariPool-1 - configuration:
+2022-06-10 21:28:12 DEBUG allowPoolSuspension.............false
+2022-06-10 21:28:12 DEBUG autoCommit......................true
+2022-06-10 21:28:12 DEBUG catalog.........................none
+2022-06-10 21:28:12 DEBUG connectionInitSql...............none
+2022-06-10 21:28:12 DEBUG connectionTestQuery.............none
+2022-06-10 21:28:12 DEBUG connectionTimeout...............30000
+2022-06-10 21:28:12 DEBUG dataSource......................none
+2022-06-10 21:28:12 DEBUG dataSourceClassName.............none
+2022-06-10 21:28:12 DEBUG dataSourceJNDI..................none
+2022-06-10 21:28:12 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 21:28:12 DEBUG driverClassName.................none
+2022-06-10 21:28:12 DEBUG exceptionOverrideClassName......none
+2022-06-10 21:28:12 DEBUG healthCheckProperties...........{}
+2022-06-10 21:28:12 DEBUG healthCheckRegistry.............none
+2022-06-10 21:28:12 DEBUG idleTimeout.....................600000
+2022-06-10 21:28:12 DEBUG initializationFailTimeout.......1
+2022-06-10 21:28:12 DEBUG isolateInternalQueries..........false
+2022-06-10 21:28:12 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 21:28:12 DEBUG leakDetectionThreshold..........0
+2022-06-10 21:28:12 DEBUG maxLifetime.....................1800000
+2022-06-10 21:28:12 DEBUG maximumPoolSize.................10
+2022-06-10 21:28:12 DEBUG metricRegistry..................none
+2022-06-10 21:28:12 DEBUG metricsTrackerFactory...........none
+2022-06-10 21:28:12 DEBUG minimumIdle.....................10
+2022-06-10 21:28:12 DEBUG password........................<masked>
+2022-06-10 21:28:12 DEBUG poolName........................"HikariPool-1"
+2022-06-10 21:28:12 DEBUG readOnly........................false
+2022-06-10 21:28:12 DEBUG registerMbeans..................false
+2022-06-10 21:28:12 DEBUG scheduledExecutor...............none
+2022-06-10 21:28:12 DEBUG schema..........................none
+2022-06-10 21:28:12 DEBUG threadFactory...................internal
+2022-06-10 21:28:12 DEBUG transactionIsolation............default
+2022-06-10 21:28:12 DEBUG username........................"root"
+2022-06-10 21:28:12 DEBUG validationTimeout...............5000
+2022-06-10 21:28:12 INFO  HikariPool-1 - Starting...
+2022-06-10 21:28:12 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 21:28:13 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56e8b606
+2022-06-10 21:28:13 INFO  HikariPool-1 - Start completed.
+2022-06-10 21:28:13 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 21:28:13 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-10 21:28:13 DEBUG CriminalCase{id=1, version=0, createdAt=null, modifiedAt=null, number='2', type=UNCATEGORIZED, sortDescription='huhu', detailedDescription='haa', status=CLOSED, notes='hi', evidenceSet=null, leadInvestigator='123', assigned=null}
+2022-06-10 21:28:13 DEBUG CriminalCase{id=2, version=0, createdAt=null, modifiedAt=null, number='3', type=UNCATEGORIZED, sortDescription='conan', detailedDescription='huhuhuhu', status=CLOSED, notes='hiii', evidenceSet=null, leadInvestigator='124', assigned=null}
+2022-06-10 22:07:58 DEBUG HikariPool-1 - configuration:
+2022-06-10 22:07:59 DEBUG allowPoolSuspension.............false
+2022-06-10 22:07:59 DEBUG autoCommit......................true
+2022-06-10 22:07:59 DEBUG catalog.........................none
+2022-06-10 22:07:59 DEBUG connectionInitSql...............none
+2022-06-10 22:07:59 DEBUG connectionTestQuery.............none
+2022-06-10 22:07:59 DEBUG connectionTimeout...............30000
+2022-06-10 22:07:59 DEBUG dataSource......................none
+2022-06-10 22:07:59 DEBUG dataSourceClassName.............none
+2022-06-10 22:07:59 DEBUG dataSourceJNDI..................none
+2022-06-10 22:07:59 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 22:07:59 DEBUG driverClassName.................none
+2022-06-10 22:07:59 DEBUG exceptionOverrideClassName......none
+2022-06-10 22:07:59 DEBUG healthCheckProperties...........{}
+2022-06-10 22:07:59 DEBUG healthCheckRegistry.............none
+2022-06-10 22:07:59 DEBUG idleTimeout.....................600000
+2022-06-10 22:07:59 DEBUG initializationFailTimeout.......1
+2022-06-10 22:07:59 DEBUG isolateInternalQueries..........false
+2022-06-10 22:07:59 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 22:07:59 DEBUG leakDetectionThreshold..........0
+2022-06-10 22:07:59 DEBUG maxLifetime.....................1800000
+2022-06-10 22:07:59 DEBUG maximumPoolSize.................10
+2022-06-10 22:07:59 DEBUG metricRegistry..................none
+2022-06-10 22:07:59 DEBUG metricsTrackerFactory...........none
+2022-06-10 22:07:59 DEBUG minimumIdle.....................10
+2022-06-10 22:07:59 DEBUG password........................<masked>
+2022-06-10 22:07:59 DEBUG poolName........................"HikariPool-1"
+2022-06-10 22:07:59 DEBUG readOnly........................false
+2022-06-10 22:07:59 DEBUG registerMbeans..................false
+2022-06-10 22:07:59 DEBUG scheduledExecutor...............none
+2022-06-10 22:07:59 DEBUG schema..........................none
+2022-06-10 22:07:59 DEBUG threadFactory...................internal
+2022-06-10 22:07:59 DEBUG transactionIsolation............default
+2022-06-10 22:07:59 DEBUG username........................"root"
+2022-06-10 22:07:59 DEBUG validationTimeout...............5000
+2022-06-10 22:07:59 INFO  HikariPool-1 - Starting...
+2022-06-10 22:07:59 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 22:07:59 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@784c3487
+2022-06-10 22:07:59 INFO  HikariPool-1 - Start completed.
+2022-06-10 22:07:59 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 22:07:59 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-10 22:07:59 DEBUG CriminalCase{id=1, version=0, createdAt=null, modifiedAt=null, number='2', type=UNCATEGORIZED, sortDescription='huhu', detailedDescription='haa', status=CLOSED, notes='hi', evidenceSet=null, leadInvestigator='123', assigned=null}
+2022-06-10 22:07:59 DEBUG CriminalCase{id=2, version=0, createdAt=null, modifiedAt=null, number='3', type=UNCATEGORIZED, sortDescription='conan', detailedDescription='huhuhuhu', status=CLOSED, notes='hiii', evidenceSet=null, leadInvestigator='124', assigned=null}
+2022-06-10 22:08:03 DEBUG HikariPool-1 - configuration:
+2022-06-10 22:08:03 DEBUG allowPoolSuspension.............false
+2022-06-10 22:08:03 DEBUG autoCommit......................true
+2022-06-10 22:08:03 DEBUG catalog.........................none
+2022-06-10 22:08:03 DEBUG connectionInitSql...............none
+2022-06-10 22:08:03 DEBUG connectionTestQuery.............none
+2022-06-10 22:08:03 DEBUG connectionTimeout...............30000
+2022-06-10 22:08:03 DEBUG dataSource......................none
+2022-06-10 22:08:03 DEBUG dataSourceClassName.............none
+2022-06-10 22:08:03 DEBUG dataSourceJNDI..................none
+2022-06-10 22:08:03 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-10 22:08:03 DEBUG driverClassName.................none
+2022-06-10 22:08:03 DEBUG exceptionOverrideClassName......none
+2022-06-10 22:08:03 DEBUG healthCheckProperties...........{}
+2022-06-10 22:08:03 DEBUG healthCheckRegistry.............none
+2022-06-10 22:08:03 DEBUG idleTimeout.....................600000
+2022-06-10 22:08:03 DEBUG initializationFailTimeout.......1
+2022-06-10 22:08:03 DEBUG isolateInternalQueries..........false
+2022-06-10 22:08:03 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 22:08:03 DEBUG leakDetectionThreshold..........0
+2022-06-10 22:08:03 DEBUG maxLifetime.....................1800000
+2022-06-10 22:08:03 DEBUG maximumPoolSize.................10
+2022-06-10 22:08:03 DEBUG metricRegistry..................none
+2022-06-10 22:08:03 DEBUG metricsTrackerFactory...........none
+2022-06-10 22:08:03 DEBUG minimumIdle.....................10
+2022-06-10 22:08:03 DEBUG password........................<masked>
+2022-06-10 22:08:03 DEBUG poolName........................"HikariPool-1"
+2022-06-10 22:08:03 DEBUG readOnly........................false
+2022-06-10 22:08:03 DEBUG registerMbeans..................false
+2022-06-10 22:08:03 DEBUG scheduledExecutor...............none
+2022-06-10 22:08:03 DEBUG schema..........................none
+2022-06-10 22:08:03 DEBUG threadFactory...................internal
+2022-06-10 22:08:03 DEBUG transactionIsolation............default
+2022-06-10 22:08:03 DEBUG username........................"root"
+2022-06-10 22:08:03 DEBUG validationTimeout...............5000
+2022-06-10 22:08:03 INFO  HikariPool-1 - Starting...
+2022-06-10 22:08:03 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-10 22:08:04 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@784c3487
+2022-06-10 22:08:04 INFO  HikariPool-1 - Start completed.
+2022-06-10 22:08:04 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-10 22:08:04 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-10 22:08:04 DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-06-10 22:08:04 ERROR java.sql.SQLException: Column 'id_leadInvest' not found.
+2022-06-10 22:08:04 ERROR java.lang.NullPointerException: Cannot invoke "core.CriminalCase.toString()" because "criminalCase" is null
+2022-06-12 22:22:51 DEBUG HikariPool-1 - configuration:
+2022-06-12 22:22:51 DEBUG allowPoolSuspension.............false
+2022-06-12 22:22:51 DEBUG autoCommit......................true
+2022-06-12 22:22:51 DEBUG catalog.........................none
+2022-06-12 22:22:51 DEBUG connectionInitSql...............none
+2022-06-12 22:22:51 DEBUG connectionTestQuery.............none
+2022-06-12 22:22:51 DEBUG connectionTimeout...............30000
+2022-06-12 22:22:51 DEBUG dataSource......................none
+2022-06-12 22:22:51 DEBUG dataSourceClassName.............none
+2022-06-12 22:22:51 DEBUG dataSourceJNDI..................none
+2022-06-12 22:22:51 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-12 22:22:51 DEBUG driverClassName.................none
+2022-06-12 22:22:51 DEBUG exceptionOverrideClassName......none
+2022-06-12 22:22:51 DEBUG healthCheckProperties...........{}
+2022-06-12 22:22:51 DEBUG healthCheckRegistry.............none
+2022-06-12 22:22:51 DEBUG idleTimeout.....................600000
+2022-06-12 22:22:51 DEBUG initializationFailTimeout.......1
+2022-06-12 22:22:51 DEBUG isolateInternalQueries..........false
+2022-06-12 22:22:51 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-12 22:22:51 DEBUG leakDetectionThreshold..........0
+2022-06-12 22:22:51 DEBUG maxLifetime.....................1800000
+2022-06-12 22:22:51 DEBUG maximumPoolSize.................10
+2022-06-12 22:22:51 DEBUG metricRegistry..................none
+2022-06-12 22:22:51 DEBUG metricsTrackerFactory...........none
+2022-06-12 22:22:51 DEBUG minimumIdle.....................10
+2022-06-12 22:22:51 DEBUG password........................<masked>
+2022-06-12 22:22:51 DEBUG poolName........................"HikariPool-1"
+2022-06-12 22:22:51 DEBUG readOnly........................false
+2022-06-12 22:22:51 DEBUG registerMbeans..................false
+2022-06-12 22:22:51 DEBUG scheduledExecutor...............none
+2022-06-12 22:22:51 DEBUG schema..........................none
+2022-06-12 22:22:51 DEBUG threadFactory...................internal
+2022-06-12 22:22:51 DEBUG transactionIsolation............default
+2022-06-12 22:22:51 DEBUG username........................"root"
+2022-06-12 22:22:51 DEBUG validationTimeout...............5000
+2022-06-12 22:22:51 INFO  HikariPool-1 - Starting...
+2022-06-12 22:22:51 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-12 22:22:52 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@784c3487
+2022-06-12 22:22:52 INFO  HikariPool-1 - Start completed.
+2022-06-12 22:22:52 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-12 22:22:52 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-12 22:23:23 DEBUG HikariPool-1 - configuration:
+2022-06-12 22:23:23 DEBUG allowPoolSuspension.............false
+2022-06-12 22:23:23 DEBUG autoCommit......................true
+2022-06-12 22:23:23 DEBUG catalog.........................none
+2022-06-12 22:23:23 DEBUG connectionInitSql...............none
+2022-06-12 22:23:23 DEBUG connectionTestQuery.............none
+2022-06-12 22:23:23 DEBUG connectionTimeout...............30000
+2022-06-12 22:23:23 DEBUG dataSource......................none
+2022-06-12 22:23:23 DEBUG dataSourceClassName.............none
+2022-06-12 22:23:23 DEBUG dataSourceJNDI..................none
+2022-06-12 22:23:23 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-12 22:23:23 DEBUG driverClassName.................none
+2022-06-12 22:23:23 DEBUG exceptionOverrideClassName......none
+2022-06-12 22:23:23 DEBUG healthCheckProperties...........{}
+2022-06-12 22:23:23 DEBUG healthCheckRegistry.............none
+2022-06-12 22:23:23 DEBUG idleTimeout.....................600000
+2022-06-12 22:23:23 DEBUG initializationFailTimeout.......1
+2022-06-12 22:23:23 DEBUG isolateInternalQueries..........false
+2022-06-12 22:23:23 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-12 22:23:23 DEBUG leakDetectionThreshold..........0
+2022-06-12 22:23:23 DEBUG maxLifetime.....................1800000
+2022-06-12 22:23:23 DEBUG maximumPoolSize.................10
+2022-06-12 22:23:23 DEBUG metricRegistry..................none
+2022-06-12 22:23:23 DEBUG metricsTrackerFactory...........none
+2022-06-12 22:23:23 DEBUG minimumIdle.....................10
+2022-06-12 22:23:23 DEBUG password........................<masked>
+2022-06-12 22:23:23 DEBUG poolName........................"HikariPool-1"
+2022-06-12 22:23:23 DEBUG readOnly........................false
+2022-06-12 22:23:23 DEBUG registerMbeans..................false
+2022-06-12 22:23:23 DEBUG scheduledExecutor...............none
+2022-06-12 22:23:23 DEBUG schema..........................none
+2022-06-12 22:23:23 DEBUG threadFactory...................internal
+2022-06-12 22:23:23 DEBUG transactionIsolation............default
+2022-06-12 22:23:23 DEBUG username........................"root"
+2022-06-12 22:23:23 DEBUG validationTimeout...............5000
+2022-06-12 22:23:23 INFO  HikariPool-1 - Starting...
+2022-06-12 22:23:23 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-12 22:23:24 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@784c3487
+2022-06-12 22:23:24 INFO  HikariPool-1 - Start completed.
+2022-06-12 22:23:24 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-12 22:23:24 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-13 18:58:16 DEBUG HikariPool-1 - configuration:
+2022-06-13 18:58:16 DEBUG allowPoolSuspension.............false
+2022-06-13 18:58:16 DEBUG autoCommit......................true
+2022-06-13 18:58:16 DEBUG catalog.........................none
+2022-06-13 18:58:16 DEBUG connectionInitSql...............none
+2022-06-13 18:58:16 DEBUG connectionTestQuery.............none
+2022-06-13 18:58:16 DEBUG connectionTimeout...............30000
+2022-06-13 18:58:16 DEBUG dataSource......................none
+2022-06-13 18:58:16 DEBUG dataSourceClassName.............none
+2022-06-13 18:58:16 DEBUG dataSourceJNDI..................none
+2022-06-13 18:58:16 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 18:58:16 DEBUG driverClassName.................none
+2022-06-13 18:58:16 DEBUG exceptionOverrideClassName......none
+2022-06-13 18:58:16 DEBUG healthCheckProperties...........{}
+2022-06-13 18:58:16 DEBUG healthCheckRegistry.............none
+2022-06-13 18:58:16 DEBUG idleTimeout.....................600000
+2022-06-13 18:58:16 DEBUG initializationFailTimeout.......1
+2022-06-13 18:58:16 DEBUG isolateInternalQueries..........false
+2022-06-13 18:58:16 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 18:58:16 DEBUG leakDetectionThreshold..........0
+2022-06-13 18:58:16 DEBUG maxLifetime.....................1800000
+2022-06-13 18:58:16 DEBUG maximumPoolSize.................10
+2022-06-13 18:58:16 DEBUG metricRegistry..................none
+2022-06-13 18:58:16 DEBUG metricsTrackerFactory...........none
+2022-06-13 18:58:16 DEBUG minimumIdle.....................10
+2022-06-13 18:58:16 DEBUG password........................<masked>
+2022-06-13 18:58:16 DEBUG poolName........................"HikariPool-1"
+2022-06-13 18:58:16 DEBUG readOnly........................false
+2022-06-13 18:58:16 DEBUG registerMbeans..................false
+2022-06-13 18:58:16 DEBUG scheduledExecutor...............none
+2022-06-13 18:58:16 DEBUG schema..........................none
+2022-06-13 18:58:16 DEBUG threadFactory...................internal
+2022-06-13 18:58:16 DEBUG transactionIsolation............default
+2022-06-13 18:58:16 DEBUG username........................"root"
+2022-06-13 18:58:16 DEBUG validationTimeout...............5000
+2022-06-13 18:58:16 INFO  HikariPool-1 - Starting...
+2022-06-13 18:58:16 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 18:58:18 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf8b2dc
+2022-06-13 18:58:18 INFO  HikariPool-1 - Start completed.
+2022-06-13 18:58:18 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:18 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 18:58:18 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10bc576c
+2022-06-13 18:58:18 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:18 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:18 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:18 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:18 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51815d57
+2022-06-13 18:58:39 DEBUG HikariPool-1 - configuration:
+2022-06-13 18:58:39 DEBUG allowPoolSuspension.............false
+2022-06-13 18:58:39 DEBUG autoCommit......................true
+2022-06-13 18:58:39 DEBUG catalog.........................none
+2022-06-13 18:58:39 DEBUG connectionInitSql...............none
+2022-06-13 18:58:39 DEBUG connectionTestQuery.............none
+2022-06-13 18:58:39 DEBUG connectionTimeout...............30000
+2022-06-13 18:58:39 DEBUG dataSource......................none
+2022-06-13 18:58:39 DEBUG dataSourceClassName.............none
+2022-06-13 18:58:39 DEBUG dataSourceJNDI..................none
+2022-06-13 18:58:39 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 18:58:39 DEBUG driverClassName.................none
+2022-06-13 18:58:39 DEBUG exceptionOverrideClassName......none
+2022-06-13 18:58:39 DEBUG healthCheckProperties...........{}
+2022-06-13 18:58:39 DEBUG healthCheckRegistry.............none
+2022-06-13 18:58:39 DEBUG idleTimeout.....................600000
+2022-06-13 18:58:39 DEBUG initializationFailTimeout.......1
+2022-06-13 18:58:39 DEBUG isolateInternalQueries..........false
+2022-06-13 18:58:39 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 18:58:39 DEBUG leakDetectionThreshold..........0
+2022-06-13 18:58:39 DEBUG maxLifetime.....................1800000
+2022-06-13 18:58:39 DEBUG maximumPoolSize.................10
+2022-06-13 18:58:39 DEBUG metricRegistry..................none
+2022-06-13 18:58:39 DEBUG metricsTrackerFactory...........none
+2022-06-13 18:58:39 DEBUG minimumIdle.....................10
+2022-06-13 18:58:39 DEBUG password........................<masked>
+2022-06-13 18:58:39 DEBUG poolName........................"HikariPool-1"
+2022-06-13 18:58:39 DEBUG readOnly........................false
+2022-06-13 18:58:39 DEBUG registerMbeans..................false
+2022-06-13 18:58:39 DEBUG scheduledExecutor...............none
+2022-06-13 18:58:39 DEBUG schema..........................none
+2022-06-13 18:58:39 DEBUG threadFactory...................internal
+2022-06-13 18:58:39 DEBUG transactionIsolation............default
+2022-06-13 18:58:39 DEBUG username........................"root"
+2022-06-13 18:58:39 DEBUG validationTimeout...............5000
+2022-06-13 18:58:39 INFO  HikariPool-1 - Starting...
+2022-06-13 18:58:39 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 18:58:40 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3668d4
+2022-06-13 18:58:40 INFO  HikariPool-1 - Start completed.
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (2,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (2,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (2,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (2,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (1,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 18:58:40 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, id_criminal) VALUES (2,'haha','huhu','haha','huhu','2022-09' at line 1
+2022-06-13 19:00:46 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:00:46 DEBUG allowPoolSuspension.............false
+2022-06-13 19:00:46 DEBUG autoCommit......................true
+2022-06-13 19:00:46 DEBUG catalog.........................none
+2022-06-13 19:00:46 DEBUG connectionInitSql...............none
+2022-06-13 19:00:46 DEBUG connectionTestQuery.............none
+2022-06-13 19:00:46 DEBUG connectionTimeout...............30000
+2022-06-13 19:00:46 DEBUG dataSource......................none
+2022-06-13 19:00:46 DEBUG dataSourceClassName.............none
+2022-06-13 19:00:46 DEBUG dataSourceJNDI..................none
+2022-06-13 19:00:46 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:00:46 DEBUG driverClassName.................none
+2022-06-13 19:00:46 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:00:46 DEBUG healthCheckProperties...........{}
+2022-06-13 19:00:46 DEBUG healthCheckRegistry.............none
+2022-06-13 19:00:46 DEBUG idleTimeout.....................600000
+2022-06-13 19:00:46 DEBUG initializationFailTimeout.......1
+2022-06-13 19:00:46 DEBUG isolateInternalQueries..........false
+2022-06-13 19:00:46 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:00:46 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:00:46 DEBUG maxLifetime.....................1800000
+2022-06-13 19:00:46 DEBUG maximumPoolSize.................10
+2022-06-13 19:00:46 DEBUG metricRegistry..................none
+2022-06-13 19:00:46 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:00:46 DEBUG minimumIdle.....................10
+2022-06-13 19:00:46 DEBUG password........................<masked>
+2022-06-13 19:00:46 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:00:46 DEBUG readOnly........................false
+2022-06-13 19:00:46 DEBUG registerMbeans..................false
+2022-06-13 19:00:46 DEBUG scheduledExecutor...............none
+2022-06-13 19:00:46 DEBUG schema..........................none
+2022-06-13 19:00:46 DEBUG threadFactory...................internal
+2022-06-13 19:00:46 DEBUG transactionIsolation............default
+2022-06-13 19:00:46 DEBUG username........................"root"
+2022-06-13 19:00:46 DEBUG validationTimeout...............5000
+2022-06-13 19:00:46 INFO  HikariPool-1 - Starting...
+2022-06-13 19:00:46 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:00:48 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf8b2dc
+2022-06-13 19:00:48 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:00:48 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:41 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:03:41 DEBUG allowPoolSuspension.............false
+2022-06-13 19:03:41 DEBUG autoCommit......................true
+2022-06-13 19:03:41 DEBUG catalog.........................none
+2022-06-13 19:03:41 DEBUG connectionInitSql...............none
+2022-06-13 19:03:41 DEBUG connectionTestQuery.............none
+2022-06-13 19:03:41 DEBUG connectionTimeout...............30000
+2022-06-13 19:03:41 DEBUG dataSource......................none
+2022-06-13 19:03:41 DEBUG dataSourceClassName.............none
+2022-06-13 19:03:41 DEBUG dataSourceJNDI..................none
+2022-06-13 19:03:41 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:03:41 DEBUG driverClassName.................none
+2022-06-13 19:03:41 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:03:41 DEBUG healthCheckProperties...........{}
+2022-06-13 19:03:41 DEBUG healthCheckRegistry.............none
+2022-06-13 19:03:41 DEBUG idleTimeout.....................600000
+2022-06-13 19:03:41 DEBUG initializationFailTimeout.......1
+2022-06-13 19:03:41 DEBUG isolateInternalQueries..........false
+2022-06-13 19:03:41 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:03:41 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:03:41 DEBUG maxLifetime.....................1800000
+2022-06-13 19:03:41 DEBUG maximumPoolSize.................10
+2022-06-13 19:03:41 DEBUG metricRegistry..................none
+2022-06-13 19:03:41 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:03:41 DEBUG minimumIdle.....................10
+2022-06-13 19:03:41 DEBUG password........................<masked>
+2022-06-13 19:03:41 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:03:41 DEBUG readOnly........................false
+2022-06-13 19:03:41 DEBUG registerMbeans..................false
+2022-06-13 19:03:41 DEBUG scheduledExecutor...............none
+2022-06-13 19:03:41 DEBUG schema..........................none
+2022-06-13 19:03:41 DEBUG threadFactory...................internal
+2022-06-13 19:03:41 DEBUG transactionIsolation............default
+2022-06-13 19:03:41 DEBUG username........................"root"
+2022-06-13 19:03:41 DEBUG validationTimeout...............5000
+2022-06-13 19:03:41 INFO  HikariPool-1 - Starting...
+2022-06-13 19:03:41 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:03:42 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf8b2dc
+2022-06-13 19:03:42 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','2022-09-' at line 1
+2022-06-13 19:03:42 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:07:37 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:07:37 DEBUG allowPoolSuspension.............false
+2022-06-13 19:07:37 DEBUG autoCommit......................true
+2022-06-13 19:07:37 DEBUG catalog.........................none
+2022-06-13 19:07:37 DEBUG connectionInitSql...............none
+2022-06-13 19:07:37 DEBUG connectionTestQuery.............none
+2022-06-13 19:07:37 DEBUG connectionTimeout...............30000
+2022-06-13 19:07:37 DEBUG dataSource......................none
+2022-06-13 19:07:37 DEBUG dataSourceClassName.............none
+2022-06-13 19:07:37 DEBUG dataSourceJNDI..................none
+2022-06-13 19:07:37 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:07:37 DEBUG driverClassName.................none
+2022-06-13 19:07:37 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:07:37 DEBUG healthCheckProperties...........{}
+2022-06-13 19:07:37 DEBUG healthCheckRegistry.............none
+2022-06-13 19:07:37 DEBUG idleTimeout.....................600000
+2022-06-13 19:07:37 DEBUG initializationFailTimeout.......1
+2022-06-13 19:07:37 DEBUG isolateInternalQueries..........false
+2022-06-13 19:07:37 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:07:37 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:07:37 DEBUG maxLifetime.....................1800000
+2022-06-13 19:07:37 DEBUG maximumPoolSize.................10
+2022-06-13 19:07:37 DEBUG metricRegistry..................none
+2022-06-13 19:07:37 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:07:37 DEBUG minimumIdle.....................10
+2022-06-13 19:07:37 DEBUG password........................<masked>
+2022-06-13 19:07:37 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:07:37 DEBUG readOnly........................false
+2022-06-13 19:07:37 DEBUG registerMbeans..................false
+2022-06-13 19:07:37 DEBUG scheduledExecutor...............none
+2022-06-13 19:07:37 DEBUG schema..........................none
+2022-06-13 19:07:37 DEBUG threadFactory...................internal
+2022-06-13 19:07:37 DEBUG transactionIsolation............default
+2022-06-13 19:07:37 DEBUG username........................"root"
+2022-06-13 19:07:37 DEBUG validationTimeout...............5000
+2022-06-13 19:07:37 INFO  HikariPool-1 - Starting...
+2022-06-13 19:07:38 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:07:38 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf8b2dc
+2022-06-13 19:07:38 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:07:38 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:07:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (2,'haha','huhu','haha','huhu','1','1','' at line 1
+2022-06-13 19:11:34 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:11:34 DEBUG allowPoolSuspension.............false
+2022-06-13 19:11:34 DEBUG autoCommit......................true
+2022-06-13 19:11:34 DEBUG catalog.........................none
+2022-06-13 19:11:34 DEBUG connectionInitSql...............none
+2022-06-13 19:11:34 DEBUG connectionTestQuery.............none
+2022-06-13 19:11:34 DEBUG connectionTimeout...............30000
+2022-06-13 19:11:34 DEBUG dataSource......................none
+2022-06-13 19:11:34 DEBUG dataSourceClassName.............none
+2022-06-13 19:11:34 DEBUG dataSourceJNDI..................none
+2022-06-13 19:11:34 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:11:34 DEBUG driverClassName.................none
+2022-06-13 19:11:34 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:11:34 DEBUG healthCheckProperties...........{}
+2022-06-13 19:11:34 DEBUG healthCheckRegistry.............none
+2022-06-13 19:11:34 DEBUG idleTimeout.....................600000
+2022-06-13 19:11:34 DEBUG initializationFailTimeout.......1
+2022-06-13 19:11:34 DEBUG isolateInternalQueries..........false
+2022-06-13 19:11:34 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:11:34 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:11:34 DEBUG maxLifetime.....................1800000
+2022-06-13 19:11:34 DEBUG maximumPoolSize.................10
+2022-06-13 19:11:34 DEBUG metricRegistry..................none
+2022-06-13 19:11:34 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:11:34 DEBUG minimumIdle.....................10
+2022-06-13 19:11:34 DEBUG password........................<masked>
+2022-06-13 19:11:34 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:11:34 DEBUG readOnly........................false
+2022-06-13 19:11:34 DEBUG registerMbeans..................false
+2022-06-13 19:11:34 DEBUG scheduledExecutor...............none
+2022-06-13 19:11:34 DEBUG schema..........................none
+2022-06-13 19:11:34 DEBUG threadFactory...................internal
+2022-06-13 19:11:34 DEBUG transactionIsolation............default
+2022-06-13 19:11:34 DEBUG username........................"root"
+2022-06-13 19:11:34 DEBUG validationTimeout...............5000
+2022-06-13 19:11:34 INFO  HikariPool-1 - Starting...
+2022-06-13 19:11:34 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:11:35 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf8b2dc
+2022-06-13 19:11:35 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:11:35 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49a46e1d
+2022-06-13 19:11:35 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8996426
+2022-06-13 19:12:23 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:12:23 DEBUG allowPoolSuspension.............false
+2022-06-13 19:12:23 DEBUG autoCommit......................true
+2022-06-13 19:12:23 DEBUG catalog.........................none
+2022-06-13 19:12:23 DEBUG connectionInitSql...............none
+2022-06-13 19:12:23 DEBUG connectionTestQuery.............none
+2022-06-13 19:12:23 DEBUG connectionTimeout...............30000
+2022-06-13 19:12:23 DEBUG dataSource......................none
+2022-06-13 19:12:23 DEBUG dataSourceClassName.............none
+2022-06-13 19:12:23 DEBUG dataSourceJNDI..................none
+2022-06-13 19:12:23 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:12:23 DEBUG driverClassName.................none
+2022-06-13 19:12:23 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:12:23 DEBUG healthCheckProperties...........{}
+2022-06-13 19:12:23 DEBUG healthCheckRegistry.............none
+2022-06-13 19:12:23 DEBUG idleTimeout.....................600000
+2022-06-13 19:12:23 DEBUG initializationFailTimeout.......1
+2022-06-13 19:12:23 DEBUG isolateInternalQueries..........false
+2022-06-13 19:12:23 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:12:23 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:12:23 DEBUG maxLifetime.....................1800000
+2022-06-13 19:12:23 DEBUG maximumPoolSize.................10
+2022-06-13 19:12:23 DEBUG metricRegistry..................none
+2022-06-13 19:12:23 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:12:23 DEBUG minimumIdle.....................10
+2022-06-13 19:12:23 DEBUG password........................<masked>
+2022-06-13 19:12:23 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:12:23 DEBUG readOnly........................false
+2022-06-13 19:12:23 DEBUG registerMbeans..................false
+2022-06-13 19:12:23 DEBUG scheduledExecutor...............none
+2022-06-13 19:12:23 DEBUG schema..........................none
+2022-06-13 19:12:23 DEBUG threadFactory...................internal
+2022-06-13 19:12:23 DEBUG transactionIsolation............default
+2022-06-13 19:12:23 DEBUG username........................"root"
+2022-06-13 19:12:23 DEBUG validationTimeout...............5000
+2022-06-13 19:12:23 INFO  HikariPool-1 - Starting...
+2022-06-13 19:12:23 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:12:24 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cc41abc
+2022-06-13 19:12:24 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:12:24 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:12:24 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:12:24 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:12:24 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:13:10 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:13:10 DEBUG allowPoolSuspension.............false
+2022-06-13 19:13:10 DEBUG autoCommit......................true
+2022-06-13 19:13:10 DEBUG catalog.........................none
+2022-06-13 19:13:10 DEBUG connectionInitSql...............none
+2022-06-13 19:13:10 DEBUG connectionTestQuery.............none
+2022-06-13 19:13:10 DEBUG connectionTimeout...............30000
+2022-06-13 19:13:10 DEBUG dataSource......................none
+2022-06-13 19:13:10 DEBUG dataSourceClassName.............none
+2022-06-13 19:13:10 DEBUG dataSourceJNDI..................none
+2022-06-13 19:13:10 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:13:10 DEBUG driverClassName.................none
+2022-06-13 19:13:10 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:13:10 DEBUG healthCheckProperties...........{}
+2022-06-13 19:13:10 DEBUG healthCheckRegistry.............none
+2022-06-13 19:13:10 DEBUG idleTimeout.....................600000
+2022-06-13 19:13:10 DEBUG initializationFailTimeout.......1
+2022-06-13 19:13:10 DEBUG isolateInternalQueries..........false
+2022-06-13 19:13:10 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:13:10 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:13:10 DEBUG maxLifetime.....................1800000
+2022-06-13 19:13:10 DEBUG maximumPoolSize.................10
+2022-06-13 19:13:10 DEBUG metricRegistry..................none
+2022-06-13 19:13:10 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:13:10 DEBUG minimumIdle.....................10
+2022-06-13 19:13:10 DEBUG password........................<masked>
+2022-06-13 19:13:10 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:13:10 DEBUG readOnly........................false
+2022-06-13 19:13:10 DEBUG registerMbeans..................false
+2022-06-13 19:13:10 DEBUG scheduledExecutor...............none
+2022-06-13 19:13:10 DEBUG schema..........................none
+2022-06-13 19:13:10 DEBUG threadFactory...................internal
+2022-06-13 19:13:10 DEBUG transactionIsolation............default
+2022-06-13 19:13:10 DEBUG username........................"root"
+2022-06-13 19:13:10 DEBUG validationTimeout...............5000
+2022-06-13 19:13:10 INFO  HikariPool-1 - Starting...
+2022-06-13 19:13:10 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:13:12 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77a7cf58
+2022-06-13 19:13:12 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:13:12 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'criminal_case.PRIMARY'
+2022-06-13 19:13:12 ERROR java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'criminal_case.PRIMARY'
+2022-06-13 19:13:12 DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2022-06-13 19:13:12 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@425f2c1a
+2022-06-13 19:18:13 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:18:13 DEBUG allowPoolSuspension.............false
+2022-06-13 19:18:13 DEBUG autoCommit......................true
+2022-06-13 19:18:13 DEBUG catalog.........................none
+2022-06-13 19:18:13 DEBUG connectionInitSql...............none
+2022-06-13 19:18:13 DEBUG connectionTestQuery.............none
+2022-06-13 19:18:13 DEBUG connectionTimeout...............30000
+2022-06-13 19:18:13 DEBUG dataSource......................none
+2022-06-13 19:18:13 DEBUG dataSourceClassName.............none
+2022-06-13 19:18:13 DEBUG dataSourceJNDI..................none
+2022-06-13 19:18:13 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:18:13 DEBUG driverClassName.................none
+2022-06-13 19:18:13 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:18:13 DEBUG healthCheckProperties...........{}
+2022-06-13 19:18:13 DEBUG healthCheckRegistry.............none
+2022-06-13 19:18:13 DEBUG idleTimeout.....................600000
+2022-06-13 19:18:13 DEBUG initializationFailTimeout.......1
+2022-06-13 19:18:13 DEBUG isolateInternalQueries..........false
+2022-06-13 19:18:13 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:18:13 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:18:13 DEBUG maxLifetime.....................1800000
+2022-06-13 19:18:13 DEBUG maximumPoolSize.................10
+2022-06-13 19:18:13 DEBUG metricRegistry..................none
+2022-06-13 19:18:13 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:18:13 DEBUG minimumIdle.....................10
+2022-06-13 19:18:13 DEBUG password........................<masked>
+2022-06-13 19:18:13 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:18:13 DEBUG readOnly........................false
+2022-06-13 19:18:13 DEBUG registerMbeans..................false
+2022-06-13 19:18:13 DEBUG scheduledExecutor...............none
+2022-06-13 19:18:13 DEBUG schema..........................none
+2022-06-13 19:18:13 DEBUG threadFactory...................internal
+2022-06-13 19:18:13 DEBUG transactionIsolation............default
+2022-06-13 19:18:13 DEBUG username........................"root"
+2022-06-13 19:18:13 DEBUG validationTimeout...............5000
+2022-06-13 19:18:13 INFO  HikariPool-1 - Starting...
+2022-06-13 19:18:13 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:18:14 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ccb4b1b
+2022-06-13 19:18:14 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:18:14 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:14 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:14 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:38 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:18:38 DEBUG allowPoolSuspension.............false
+2022-06-13 19:18:38 DEBUG autoCommit......................true
+2022-06-13 19:18:38 DEBUG catalog.........................none
+2022-06-13 19:18:38 DEBUG connectionInitSql...............none
+2022-06-13 19:18:38 DEBUG connectionTestQuery.............none
+2022-06-13 19:18:38 DEBUG connectionTimeout...............30000
+2022-06-13 19:18:38 DEBUG dataSource......................none
+2022-06-13 19:18:38 DEBUG dataSourceClassName.............none
+2022-06-13 19:18:38 DEBUG dataSourceJNDI..................none
+2022-06-13 19:18:38 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:18:38 DEBUG driverClassName.................none
+2022-06-13 19:18:38 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:18:38 DEBUG healthCheckProperties...........{}
+2022-06-13 19:18:38 DEBUG healthCheckRegistry.............none
+2022-06-13 19:18:38 DEBUG idleTimeout.....................600000
+2022-06-13 19:18:38 DEBUG initializationFailTimeout.......1
+2022-06-13 19:18:38 DEBUG isolateInternalQueries..........false
+2022-06-13 19:18:38 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:18:38 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:18:38 DEBUG maxLifetime.....................1800000
+2022-06-13 19:18:38 DEBUG maximumPoolSize.................10
+2022-06-13 19:18:38 DEBUG metricRegistry..................none
+2022-06-13 19:18:38 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:18:38 DEBUG minimumIdle.....................10
+2022-06-13 19:18:38 DEBUG password........................<masked>
+2022-06-13 19:18:38 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:18:38 DEBUG readOnly........................false
+2022-06-13 19:18:38 DEBUG registerMbeans..................false
+2022-06-13 19:18:38 DEBUG scheduledExecutor...............none
+2022-06-13 19:18:38 DEBUG schema..........................none
+2022-06-13 19:18:38 DEBUG threadFactory...................internal
+2022-06-13 19:18:38 DEBUG transactionIsolation............default
+2022-06-13 19:18:38 DEBUG username........................"root"
+2022-06-13 19:18:38 DEBUG validationTimeout...............5000
+2022-06-13 19:18:38 INFO  HikariPool-1 - Starting...
+2022-06-13 19:18:38 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:18:39 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ccb4b1b
+2022-06-13 19:18:39 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:18:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:39 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
+2022-06-13 19:18:39 DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-06-13 19:19:09 DEBUG HikariPool-1 - configuration:
+2022-06-13 19:19:09 DEBUG allowPoolSuspension.............false
+2022-06-13 19:19:09 DEBUG autoCommit......................true
+2022-06-13 19:19:09 DEBUG catalog.........................none
+2022-06-13 19:19:09 DEBUG connectionInitSql...............none
+2022-06-13 19:19:09 DEBUG connectionTestQuery.............none
+2022-06-13 19:19:09 DEBUG connectionTimeout...............30000
+2022-06-13 19:19:09 DEBUG dataSource......................none
+2022-06-13 19:19:09 DEBUG dataSourceClassName.............none
+2022-06-13 19:19:09 DEBUG dataSourceJNDI..................none
+2022-06-13 19:19:09 DEBUG dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+2022-06-13 19:19:09 DEBUG driverClassName.................none
+2022-06-13 19:19:09 DEBUG exceptionOverrideClassName......none
+2022-06-13 19:19:09 DEBUG healthCheckProperties...........{}
+2022-06-13 19:19:09 DEBUG healthCheckRegistry.............none
+2022-06-13 19:19:09 DEBUG idleTimeout.....................600000
+2022-06-13 19:19:09 DEBUG initializationFailTimeout.......1
+2022-06-13 19:19:09 DEBUG isolateInternalQueries..........false
+2022-06-13 19:19:09 DEBUG jdbcUrl.........................jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:19:09 DEBUG leakDetectionThreshold..........0
+2022-06-13 19:19:09 DEBUG maxLifetime.....................1800000
+2022-06-13 19:19:09 DEBUG maximumPoolSize.................10
+2022-06-13 19:19:09 DEBUG metricRegistry..................none
+2022-06-13 19:19:09 DEBUG metricsTrackerFactory...........none
+2022-06-13 19:19:09 DEBUG minimumIdle.....................10
+2022-06-13 19:19:09 DEBUG password........................<masked>
+2022-06-13 19:19:09 DEBUG poolName........................"HikariPool-1"
+2022-06-13 19:19:09 DEBUG readOnly........................false
+2022-06-13 19:19:09 DEBUG registerMbeans..................false
+2022-06-13 19:19:09 DEBUG scheduledExecutor...............none
+2022-06-13 19:19:09 DEBUG schema..........................none
+2022-06-13 19:19:09 DEBUG threadFactory...................internal
+2022-06-13 19:19:09 DEBUG transactionIsolation............default
+2022-06-13 19:19:09 DEBUG username........................"root"
+2022-06-13 19:19:09 DEBUG validationTimeout...............5000
+2022-06-13 19:19:09 INFO  HikariPool-1 - Starting...
+2022-06-13 19:19:09 DEBUG Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/evidence_db
+2022-06-13 19:19:10 DEBUG HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77a7cf58
+2022-06-13 19:19:10 INFO  HikariPool-1 - Start completed.
+2022-06-13 19:19:10 ERROR java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, armed, status, idCriminal) VALUES (1,'detective.getUserName()','detective.' at line 1
